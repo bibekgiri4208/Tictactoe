@@ -62,8 +62,6 @@ body {
     color: white;
     font-weight: 800;
     font-size: 1.6rem;
-    -webkit-text-stroke: 1px black;
-
 }
 
 .turn-container .turn-box {
