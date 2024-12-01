@@ -60,6 +60,10 @@ body {
     margin: 0;
     grid-column-start: 1;
     grid-column-end: 3;
+    color: white;
+    font-weight: 800;
+    font-size: 1.6rem;
+    -webkit-text-stroke: 1px black;
 }
 
 .turn-container .turn-box {
