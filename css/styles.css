@@ -20,6 +20,25 @@ body {
     text-align: center;
     padding-top: 5vh;
 }
+.back-button {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  padding: 0.5em 1em;
+  background-color: #39d78d;
+  border: 3px solid #000000;
+  color: #000;
+  border-radius: 0.3em;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #2db56d;
+}
 
 .audio-button {
   position: fixed;
@@ -53,7 +72,6 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     position: relative;
-    border-radius: 10px;
 }
 
 .turn-container h3 {
@@ -64,6 +82,7 @@ body {
     font-weight: 800;
     font-size: 1.6rem;
     -webkit-text-stroke: 1px black;
+
 }
 
 .turn-container .turn-box {
@@ -159,9 +178,17 @@ body {
 }
 @media (max-width: 600px) {
 
-.audio-button {
+.back-button, .audio-button {
   font-size: 0.9em;
   padding: 0.4em 0.8em;
+}
+
+.back-button {
+  top: 0.5em;
+  right: 0.5em;
+}
+
+.audio-button {
   top: 0.5em;
   left: 0.5em;
 }
