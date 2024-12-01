@@ -12,7 +12,7 @@
 }
 
 body {
-    background: url('city.png') no-repeat center center fixed;
+    background-color: black;
     background-size: cover;
     margin: 0;
     padding: 0;
